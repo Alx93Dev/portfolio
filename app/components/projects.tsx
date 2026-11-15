@@ -8,6 +8,14 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "Job Tracker",
+    description:
+      "Full-stack app to track job applications from wishlist to offer. Accessible drag-and-drop Kanban board, analytics, follow-up reminders and AI features that fill in forms from job postings and match applications against your CV.",
+    tags: ["Next.js", "NestJS", "PostgreSQL", "Prisma", "Claude API"],
+    github: "https://github.com/Alx93Dev/job-tracker",
+    demo: "https://job-tracker-web-gray.vercel.app",
+  },
+  {
     title: "Finance Dashboard",
     description:
       "Personal finance tracker built with Angular 21, Signals and Tailwind CSS. Features interactive charts, transaction management and local persistence.",
